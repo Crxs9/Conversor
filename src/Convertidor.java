@@ -65,9 +65,9 @@ public class Convertidor {
 		btnSalir.setBounds(242, 117, 89, 23);
 		frame.getContentPane().add(btnSalir);
 		
-		JButton btnNewButton = new JButton("Aceptar");
-		btnNewButton.setBounds(104, 117, 89, 23);
-		frame.getContentPane().add(btnNewButton);
+		JButton btnAceptar = new JButton("Aceptar");
+		btnAceptar.setBounds(104, 117, 89, 23);
+		frame.getContentPane().add(btnAceptar);
 	}
 
 }
