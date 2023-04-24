@@ -50,7 +50,7 @@ public class Convertidor {
 		frame.getContentPane().add(lblNewLabel);
 		
 		String[] opciones = {"","Conversor divisas","Conversor temperatura"};
-		JComboBox comboBox = new JComboBox();
+		JComboBox<String> comboBox = new JComboBox<String>();
 		comboBox.addItem(opciones[0]);
 		comboBox.addItem(opciones[1]);
 		comboBox.addItem(opciones[2]);
